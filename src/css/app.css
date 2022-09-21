@@ -1,0 +1,31 @@
+@import "./font.css";
+@import "./search.css";
+@import './recipe.css';
+@import "./buttons.css";
+@import './item.css';
+@import './recipe__edit.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Gotham Rounded;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.details{
+    width: 50%;
+}
+
+.edit{
+    width: 50%;
+}

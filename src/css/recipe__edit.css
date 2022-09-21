@@ -1,0 +1,43 @@
+.recipe__edit__form__div{
+    position: fixed;
+    top: 0px;
+    width: 50%;
+    height: 100vh;
+    right: 0;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe__edit__close__button__div{
+    text-align: end;
+    width: 100%;
+}
+
+.recipe__edit__close__btn{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.recipe__edit__main__form{
+    display: grid;
+    gap: 30px;
+}
+
+.recipe__edit__label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.recipe__edit__row{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    row-gap: 10px;
+    column-gap: 40px;
+}
+
+textarea{
+    height: 300px;
+    resize: none;
+}
+

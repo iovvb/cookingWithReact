@@ -1,0 +1,13 @@
+.recipe__items__value{
+    white-space: pre;
+}
+
+.recipe__value{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe__items{
+    display: flex;
+    justify-content: space-between;
+}

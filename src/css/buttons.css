@@ -1,0 +1,38 @@
+.btn{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn--primary{
+    background-color: hsl(200, 100%, 50%)
+}
+
+.btn--primary:hover{
+    background-color: hsl(200, 100%, 35%)
+}
+
+.btn--danger{
+    background-color: hsl(0, 100%, 50%)
+}
+
+.btn--danger:hover{
+    background-color: hsl(0, 100%, 35%)
+}
+
+.add__recipe__button__div{
+    text-align: center;
+}
+
+#success{
+    background-color: hsl(100, 100%, 50%);
+}
+
+#success:hover{
+    background-color: hsl(100, 100%, 35%);
+}

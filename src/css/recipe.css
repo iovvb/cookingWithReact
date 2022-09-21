@@ -1,0 +1,35 @@
+.recipe__wrapper{
+    display: grid;
+    grid-template-columns: (2);
+    gap: 15px;
+}
+
+.recipe__wrapper__head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe__value{
+    font-weight: lighter;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.intended{
+    margin-top: 5px;
+    margin-left: 20px;
+    white-space: pre;
+}
+
+.recipe__details__div{
+    border-right: 1px solid black;
+}
+
+.pad-20{
+    padding: 40px;
+    border-top: solid 1px black;
+}
